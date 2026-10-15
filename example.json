@@ -1,0 +1,31 @@
+{
+  "axes": {
+    "os": [
+      "linux",
+      "windows"
+    ],
+    "python": [
+      "3.12",
+      "3.14"
+    ]
+  },
+  "exclude": [
+    {
+      "os": "windows",
+      "python": "3.14"
+    }
+  ],
+  "include": [
+    {
+      "coverage": true
+    },
+    {
+      "os": "linux",
+      "coverage": false
+    },
+    {
+      "os": "macos",
+      "python": "3.14"
+    }
+  ]
+}
